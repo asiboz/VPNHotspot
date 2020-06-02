@@ -1,0 +1,173 @@
+<? xml sürümü = " 1.0 " kodlama = " utf-8 " ?>
+<! -
+ Değerlerin kopyalandığı yer:
+    * https://android.googlesource.com/platform/packages/apps/Settings/+/7686ef8/res/xml/tether_prefs.xml
+    * https://android.googlesource.com/platform/packages/apps/Settings/+/5697a7e/res/values/strings.xml
+    * @ string / usb_tethering_button_text
+    * @ string / wifi_hotspot_checkbox_text
+    * @ string / bluetooth_tether_checkbox_text
+  ->
+< kaynaklar >
+    < string  name = " app_name " > VPN Erişim Noktası </ string >
+    < string  name = " title_repeater " > Tekrarlayıcı </ string >
+    < string  name = " title_tethering " > İnternet paylaşımı </ string >
+    < string  name = " title_clients " > İstemciler </ string >
+    < string  name = " title_settings " > Ayarlar </ string >
+
+    < string  name = " repeater_channel " > Tekrarlayıcı (% 1 $ d MHz, kanal% 2 $ d) </ string >
+    < string  name = " repeater_wps " > WPS (güvenli değil) </ string >
+    < string  name = " repeater_wps_dialog_title " > PIN'i girin </ string >
+    < string  name = " repeater_wps_dialog_pbc " > Basma Düğmesi </ string >
+    < string  name = " repeater_wps_success_pbc " > Lütfen sonraki 2 dakika içinde WPS düğmesini kullanarak
+        </ string >
+    < string  name = " repeater_wps_success_keypad " > PIN kayıtlı. </ string >
+    < string  name = " repeater_wps_failure " > WPS başlatılamadı (nedeni:% s) </ string >
+    < string  name = " repeater_configure_failure " > Geçerli yapılandırma bulunamadı. Lütfen önce tekrarlayıcıyı başlatın. </ String >
+    < string  name = " repeater_clean_pog_failure " > Gereksiz P2P grubu kaldırılamadı (nedeni:% s) </ string >
+
+    < string  name = " repeater_p2p_unavailable " > Wi \ u2011Fi doğrudan kullanılamıyor, lütfen Wi \ u2011Fi'yi etkinleştirin </ string >
+    < string  name = " repeater_p2p_unavailable_enable " > Etkinleştir </ string >
+    < string  name = " repeater_create_group_failure " > P2P grubu oluşturulamadı (nedeni:% s) </ string >
+    < string  name = " repeater_remove_group_failure " > P2P grubu kaldırılamadı (nedeni:% s) </ string >
+    < string  name = " repeater_remove_old_group_failure " > Eski P2P grubu kaldırılamadı (nedeni:% s) </ string >
+    < string  name = " repeater_set_oc_failure " > İşletim kanalı ayarlanamadı (nedeni:% s) </ string >
+
+    < string  name = " repeater_failure_reason_error " > dahili hata </ string >
+    < string  name = " repeater_failure_reason_p2p_unsupported " > Kablosuz \ u2011Fi doğrudan desteklenmiyor </ string >
+    < string  name = " repeater_failure_reason_no_service_requests " > hiçbir hizmet isteği eklenmedi </ string >
+    < string  name = " repeater_failure_reason_unsupported_operation " > desteklenmeyen işlem </ string >
+    < string  name = " repeater_failure_disconnected " > Hizmet kullanılamıyor. Daha sonra tekrar deneyin </ string >
+
+    < string  name = " tethering_temp_hotspot " > Geçici Kablosuz \ u2011Fi hotspot </ string >
+    < string  name = " tethering_temp_hotspot_location " > Geçici etkin nokta konumun açık olmasını gerektiriyor. </ string >
+    < string  name = " tethering_temp_hotspot_failure " > Etkin nokta başlatılamadı (nedeni:% s) </ string >
+    < string  name = " tethering_temp_hotspot_failure_no_channel " > kanal yok </ string >
+    < string  name = " tethering_temp_hotspot_failure_generic " > genel hata </ string >
+    < string  name = " tethering_temp_hotspot_failure_incompatible_mode " > uyumsuz mod </ string >
+    < string  name = " tethering_temp_hotspot_failure_tethering_disallowed " > bağlama izin verilmiyor </ string >
+
+    < string  name = " tethering_monitor " > Monitör… </ string >
+    < string  name = " tethering_state_monitored " >% s (izlendi) </ string >
+
+    < string  name = " tethering_manage " > Sistem internet paylaşımını yönet… </ string >
+    < string  name = " tethering_manage_offload_enabled " > Lütfen Geliştirici seçeneklerinde İnternet paylaşımı donanım hızlandırmasını devre dışı bırakın
+        VPN internet paylaşımı çalışmıyorsa. </ string >
+    < string  name = " tethering_manage_usb " > USB internet paylaşımı </ string >
+    < string  name = " tethering_manage_wifi " > Kablosuz \ u2011Fi hotspot </ string >
+    < string  name = " tethering_manage_wifi_legacy " > Kablosuz \ u2011Fi hotspot (eski) </ string >
+    < string  name = " tethering_manage_bluetooth " > Bluetooth internet paylaşımı </ string >
+
+    < string  name = " connected_state_incomplete " > "(bağlantı)" </ string >
+    < string  name = " connected_state_valid " > "(ulaşılabilir)" </ string >
+    < string  name = " connected_state_failed " > "(kayıp)" </ string >
+
+    < string  name = " clients_popup_nickname " > Takma ad… </ string >
+    < string  name = " clients_popup_block " > Engelle </ string >
+    < string  name = " clients_popup_block_service_inactive " > İstemciyi engellemek için bu arabirimin hizmetini açın. </ string >
+    < string  name = " clients_popup_unblock " > Engellemeyi kaldır </ string >
+    < string  name = " clients_popup_stats " > İstatistikler… </ string >
+    < string  name = " clients_mac_lookup_unexpected_error " > Sunucu% 1 $ s için hata döndürdü:% 2 $ s </ string >
+    < string  name = " clients_nickname_title " >% s için takma ad </ string >
+    < string  name = " clients_nickname_set_to_vendor " > ← 🏳️‍🌈 Tedarikçi </ string >
+    < string  name = " clients_stats_title " >% s için istatistikler </ string >
+    < çoğul  ad = " clients_stats_message_1 " >
+        < item  quantity = " one " >% 2 $ s tarihinden beri 1 kez bağlı </ item >
+        < item  quantity = " other " >% 2 $ s tarihinden beri% 1 $ s kez bağlandı </ item >
+    </ çoğullar >
+    < çoğul  ad = " clients_stats_message_2 " >
+        < item  quantity = " one " > 1 paket gönderdi,% 2 $ s </ item >
+        < item  quantity = " other " > Gönderilen% 1 $ s paket,% 2 $ s </ item >
+    </ çoğullar >
+    < çoğul  ad = " clients_stats_message_3 " >
+        < item  quantity = " one " > Alınan 1 paket,% 2 $ s </ item >
+        < item  quantity = " other " > Alınan% 1 $ s paket,% 2 $ s </ item >
+    </ çoğullar >
+
+    < string  name = " settings_upstream " > Yukarı Akış </ string >
+    < string  name = " settings_downstream " > Aşağı akım </ string >
+    < string  name = " settings_service_masquerade " > IP Masquerade Modu </ string >
+    < string  name = " settings_service_masquerade_none " > Yok </ string >
+    < string  name = " settings_service_masquerade_simple " > Basit </ string >
+    < string  name = " settings_service_masquerade_netd " > Android Netd Hizmeti </ string >
+    < string  name = " settings_service_disable_ipv6 " > IPv6 internet paylaşımını devre dışı bırak </ string >
+    < string  name = " settings_service_disable_ipv6_summary " > Bu seçeneğin etkinleştirilmesi IPv6 aracılığıyla VPN sızıntılarını önleyecektir. </ string >
+    < string  name = " settings_service_repeater_start_on_boot " > Önyükleyicide tekrarlayıcı başlat </ string >
+    < string  name = " settings_service_repeater_safe_mode " > Tekrarlayıcı güvenli modu </ string >
+    < string  name = " settings_service_repeater_safe_mode_summary " > Sistem yapılandırmanızda hiçbir değişiklik yapmaz, ancak
+        kısa SSID'lerle çalışmaz. </ string >
+    < string  name = " settings_service_repeater_safe_mode_warning " > Kısa SSID'ler güvenli modun kapatılmasını gerektirebilir. </ string >
+    < string  name = " settings_service_wifi_lock " > Kablosuz \ u2011Fi'yi canlı tut </ string >
+    < string  name = " settings_service_wifi_lock_none " > Sistem varsayılanı </ string >
+    < string  name = " settings_service_wifi_lock_full " > Açık </ string >
+    < string  name = " settings_service_wifi_lock_high_perf " > Yüksek Performans Modu </ string >
+    < string  name = " settings_service_wifi_lock_high_perf_v29 " > Güç tasarrufunu devre dışı bırak </ string >
+    < string  name = " settings_service_wifi_lock_low_latency " > Düşük gecikme modu </ string >
+    < string  name = " settings_service_ip_monitor " > Ağ durumu izleme modu </ string >
+    < string  name = " settings_service_ip_monitor_monitor " > Netlink monitörü </ string >
+    < string  name = " settings_service_ip_monitor_monitor_root " > Köklü Netlink monitörü </ string >
+    < string  name = " settings_service_ip_monitor_poll " > Anket </ string >
+    < string  name = " settings_service_ip_monitor_poll_root " > Köklü anket </ string >
+    < string  name = " settings_service_upstream_monitor " > Geçerli yukarı akışlar </ string >
+    < string  name = " settings_service_upstream_monitor_summary " >% 1 $ s; yedek:% 2 $ s </ string >
+    < string  name = " settings_service_upstream " > Akış yukarı ağ arayüzü </ string >
+    < string  name = " settings_service_upstream_auto " > Sistem VPN'sini otomatik algıla </ string >
+    < string  name = " settings_upstream_fallback " > Geri akış yukarı arabirimi </ string >
+    < string  name = " settings_upstream_fallback_auto " > Sistem varsayılan ağını otomatik algıla </ string >
+    < string  name = " settings_service_dhcp_workaround " > DHCP geçici çözümünü etkinleştir </ string >
+    < string  name = " settings_service_dhcp_workaround_summary " > İstemciler IP adresleri alamıyorsa bunu kullanın. </ string >
+    < string  name = " settings_service_clean " > Yönlendirme kurallarını temizle / yeniden uygula </ string >
+    < string  name = " settings_service_clean_summary " > Değiştirilen ayarları geçerli etkin hizmetlerle güncelleyin. Ayrıca nadir düzeltebilir
+        yarış koşulları. </ string >
+    < string  name = " settings_system_tether_offload " > İnternet paylaşımı donanım ivmesi </ string >
+    < string  name = " settings_system_tether_offload_summary " > Sistem geliştirici seçeneklerine kısayol </ string >
+    < string  name = " settings_misc " > Çeşitli </ string >
+    < string  name = " settings_help " > Yardım </ string >
+    < string  name = " settings_misc_logcat " > Hata ayıklama bilgilerini dışa aktar </ string >
+    < string  name = " settings_misc_logcat_summary " > Çok faydalı vay </ string >
+    < string  name = " settings_misc_source " > GitHub'da proje ana sayfası </ string >
+    < string  name = " settings_misc_source_summary " > Kılavuzu okuyun, yıldız ekleyin, sorunları gönderin ve katkıda bulunun </ string >
+    < string  name = " settings_misc_donate " > Bağış </ string >
+    < string  name = " settings_misc_donate_summary " > Parayı seviyorum </ string >
+    < string  name = " settings_misc_donate_more " > PayPal, Flattr, diğerleri… </ string >
+    < string  name = " settings_restart_required " > Bu ayarı uygulamak için bu uygulamayı yeniden başlatın. </ string >
+    < string  name = " settings_exit_app " > Çıkış </ string >
+
+    < string  name = " message_tethering_title " > VPN internet paylaşımı etkin </ string >
+    < string  name = " message_channel_tethering " > VPN İnternet paylaşımı Hizmeti </ string >
+    < çoğul  adı = " bildirim_bağlantısı_dizileri " >
+        < madde  miktarı = " bir " >% s cihazına bağlı% d cihaz </ item >
+        < öğe  miktarı = " diğer " >% s cihazına bağlı% d cihaz </ item >
+    </ çoğullar >
+    < çoğul  ad = " bildirim_ arayüzleri " >
+        < madde  miktarı = " bir " >% d arayüz </ item >
+        < madde  miktarı = " diğer " >% d arayüz </ item >
+    </ çoğullar >
+    < string  name = " message_interfaces_inactive " > Etkin değil:% s </ string >
+
+    < string  name = " failure_reason_unknown " > bilinmiyor #% d </ string >
+    < string  name = " exception_interface_not_found " > Ölümcül: Akış aşağı arayüz bulunamadı </ string >
+    < string  name = " noisy_su_failure " > Bir şeyler ters gitti, lütfen hata ayıklama bilgilerini kontrol edin. </ string >
+
+    < string  name = " configuration_view " > Wi \ u2011Fi yapılandırması </ string >
+    < string  name = " configuration_share " > QR kodu ile paylaş </ string >
+    < string  name = " configuration_rejected " > Android sistemi bu yapılandırmayı reddediyor. (logcat'e bakın) </ string >
+    < string  name = " wifi_ssid " > Ağ adı </ string >
+    < string  name = " wifi_security " > Güvenlik </ string >
+    < string  name = " wifi_password " > Şifre </ string >
+    < string  name = " credentials_password_too_short " > Parola en az 8 karakterden oluşmalıdır. </ string >
+    < string  name = " wifi_hotspot_ap_band_title " > AP Bandı </ string >
+    < string  name = " wifi_ap_choose_auto " > Otomatik </ string >
+    < string  name = " wifi_ap_choose_2G " > 2,4 GHz Bandı </ string >
+    < string  name = " wifi_ap_choose_5G " > 5,0 GHz Bandı </ string >
+    < string  name = " wifi_save " > Kaydet </ string >
+
+    <! - Şunlara dayalı olarak: https://github.com/PrivacyApps/donations/blob/747d36a18433c7e9329691054122a8ad337a62d2/Donations/src/main/res/values/donations__strings.xml ->
+    < string  name = " donations__button_close " > Kapat </ string >
+    < string  name = " donations__description " > Bu uygulamayı yararlı buluyor musunuz? \ nGeliştiriciye bağış göndererek geliştirilmesini destekleyin! </ string >
+    < string  name = " donations__google_android_market " > Google Play Store </ string >
+    < string  name = " donations__google_android_market_not_supported " > Uygulama İçi Bağışlar desteklenmemektedir. Google Play Store doğru yüklendi mi? </ String >
+    < string  name = " donations__google_android_market_description " > Google,% 30 ücret alıyor </ string >
+    < string  name = " donations__google_android_market_donate_button " > Bağış yapın! </ string >
+    < string  name = " donations__google_android_market_text " > Ne kadar? </ string >
+    < string  name = " donations__thanks_dialog " > Bağış yaptığınız için teşekkürler! \ nBunu gerçekten takdir ediyorum! </ string >
+</ resources >
